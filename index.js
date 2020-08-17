@@ -11,7 +11,7 @@ let four =$("#four");
 let five = $("#five");
 let words;
 let inputArray = [9,10,11,12,13,14,15,16,17]
-let diletray = [nine, ten, eleven, twelve, one, two, three, four, five]
+let delvArray = [nine, ten, eleven, twelve, one, two, three, four, five]
 console.log(realTime);
 
 
@@ -21,13 +21,13 @@ dateDisplay.append(moment().format('dddd, MMMM Do YYYY'));
 
 for (let i = 0; i < 9; i++) {
  if (realTime === inputArray[i]) {
-     $(diletray[i]).addClass("present");
+     $(delvArray[i]).addClass("present");
  } else if (realTime > inputArray[i]) {
   
-     $(diletray[i]).addClass("past"); 
+     $(delvArray[i]).addClass("past"); 
 } else {
   
-     $(diletray[i]).addClass("future");
+     $(delvArray[i]).addClass("future");
     }
 }
 
