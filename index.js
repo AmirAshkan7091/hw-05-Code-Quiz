@@ -49,3 +49,43 @@ savedText();
 
 
 
+function savedText () {
+    var wordsNine = JSON.parse(localStorage.getItem("9:00 am"));
+    $("#nine").val("");
+    $("#nine").val(wordsNine);
+
+    var wordsTen = JSON.parse(localStorage.getItem("10:00 am"));
+    $("#ten").val("");
+    $("#ten").val(wordsTen);
+
+    var wordsEleven = JSON.parse(localStorage.getItem("11:00 am"));
+    $("#elevin").val("");
+    $("#elevin").val(wordsEleven);
+
+    var wordsTwelve = JSON.parse(localStorage.getItem("12:00 pm"));
+    $("#twelve").val("");
+    $("#twelve").val(wordsTwelve);
+
+    var wordsOne = JSON.parse(localStorage.getItem("1:00 pm"));
+    $("#one").val("");
+    $("#one").val(wordsOne);
+
+    var wordsTwo = JSON.parse(localStorage.getItem("2:00 pm"));
+    $("#two").val("");
+    $("#two").val(wordsTwo);
+
+    var wordsThree = JSON.parse(localStorage.getItem("9:00 am"));
+    $("#three").val("");
+    $("#three").val(wordsThree);
+
+    var wordsFour = JSON.parse(localStorage.getItem("4:00 pm"));
+    $("#four").val("");
+    $("#four").val(wordsFour);
+
+    var wordsFive = JSON.parse(localStorage.getItem("5:00 pm"));
+    $("#five").val("");
+    $("#five").val(wordsFive);
+
+
+
+}
